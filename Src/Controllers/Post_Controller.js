@@ -6,13 +6,13 @@ const post_product = async (req, res) => {
     const data = await fs.readFile("./Server/database.JSON", "utf8");
     const products = JSON.parse(data);
     const new_product = {
-      id: products.Productos.lenght + 1,
+      id: products.Productos.length + 1,
       Nombre,
       Presentacion,
       Cantidad,
     };
     products.Productos.push(new_product);
-    await fs.writeFile("./Server/database.JSON",JSON.stringify(inventory, null, 2),"utf8");
+    await fs.writeFile("./Server/database.JSON",JSON.stringify(products, null, 2),"utf8");
     console.log("Producto añadido con éxito");
   } catch (error) {
     console.error("Error al procesar la solicitud", error);

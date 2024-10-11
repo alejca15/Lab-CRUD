@@ -1,8 +1,16 @@
 {
-    "Products":[{
-        "id":1,
-        "Nombre": "Cafe",
-        "Presentacion": "2kg",
-        "Cantidad":25
-    }]
+  "Products": [
+    {
+      "id": 1,
+      "Nombre": "Cafe",
+      "Presentacion": "2kg",
+      "Cantidad": 25
+    },
+    {
+      "id": 2,
+      "Nombre": "Arroz",
+      "Presentacion": "1kg",
+      "Cantidad": 35
+    }
+  ]
 }
