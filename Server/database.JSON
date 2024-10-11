@@ -1,0 +1,8 @@
+{
+    "Products":[{
+        "id":1,
+        "Nombre": "Cafe",
+        "Presentacion": "2kg",
+        "Cantidad":25
+    }]
+}
